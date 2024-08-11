@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38CAA86E2C666372000C2737 /* TrackCarExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CAA86D2C666372000C2737 /* TrackCarExpenseApp.swift */; };
+		38CAA8702C666372000C2737 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CAA86F2C666372000C2737 /* ContentView.swift */; };
+		38CAA8722C666374000C2737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CAA8712C666374000C2737 /* Assets.xcassets */; };
+		38CAA8762C666374000C2737 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CAA8752C666374000C2737 /* Preview Assets.xcassets */; };
+		38CAA8802C666374000C2737 /* TrackCarExpenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CAA87F2C666374000C2737 /* TrackCarExpenseTests.swift */; };
+		38CAA88A2C666374000C2737 /* TrackCarExpenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CAA8892C666374000C2737 /* TrackCarExpenseUITests.swift */; };
+		38CAA88C2C666374000C2737 /* TrackCarExpenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CAA88B2C666374000C2737 /* TrackCarExpenseUITestsLaunchTests.swift */; };
+		38CAA8992C669468000C2737 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CAA8982C669468000C2737 /* AddView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38CAA87C2C666374000C2737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38CAA8622C666372000C2737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38CAA8692C666372000C2737;
+			remoteInfo = TrackCarExpense;
+		};
+		38CAA8862C666374000C2737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38CAA8622C666372000C2737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38CAA8692C666372000C2737;
+			remoteInfo = TrackCarExpense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38CAA86A2C666372000C2737 /* TrackCarExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackCarExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CAA86D2C666372000C2737 /* TrackCarExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCarExpenseApp.swift; sourceTree = "<group>"; };
+		38CAA86F2C666372000C2737 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38CAA8712C666374000C2737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38CAA8732C666374000C2737 /* TrackCarExpense.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackCarExpense.entitlements; sourceTree = "<group>"; };
+		38CAA8752C666374000C2737 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38CAA87B2C666374000C2737 /* TrackCarExpenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackCarExpenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CAA87F2C666374000C2737 /* TrackCarExpenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCarExpenseTests.swift; sourceTree = "<group>"; };
+		38CAA8852C666374000C2737 /* TrackCarExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackCarExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CAA8892C666374000C2737 /* TrackCarExpenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCarExpenseUITests.swift; sourceTree = "<group>"; };
+		38CAA88B2C666374000C2737 /* TrackCarExpenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCarExpenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38CAA8982C669468000C2737 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38CAA8672C666372000C2737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CAA8782C666374000C2737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CAA8822C666374000C2737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38CAA8612C666372000C2737 = {
+			isa = PBXGroup;
+			children = (
+				38CAA86C2C666372000C2737 /* TrackCarExpense */,
+				38CAA87E2C666374000C2737 /* TrackCarExpenseTests */,
+				38CAA8882C666374000C2737 /* TrackCarExpenseUITests */,
+				38CAA86B2C666372000C2737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38CAA86B2C666372000C2737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38CAA86A2C666372000C2737 /* TrackCarExpense.app */,
+				38CAA87B2C666374000C2737 /* TrackCarExpenseTests.xctest */,
+				38CAA8852C666374000C2737 /* TrackCarExpenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38CAA86C2C666372000C2737 /* TrackCarExpense */ = {
+			isa = PBXGroup;
+			children = (
+				38CAA86D2C666372000C2737 /* TrackCarExpenseApp.swift */,
+				38CAA8982C669468000C2737 /* AddView.swift */,
+				38CAA86F2C666372000C2737 /* ContentView.swift */,
+				38CAA8712C666374000C2737 /* Assets.xcassets */,
+				38CAA8732C666374000C2737 /* TrackCarExpense.entitlements */,
+				38CAA8742C666374000C2737 /* Preview Content */,
+			);
+			path = TrackCarExpense;
+			sourceTree = "<group>";
+		};
+		38CAA8742C666374000C2737 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38CAA8752C666374000C2737 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38CAA87E2C666374000C2737 /* TrackCarExpenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				38CAA87F2C666374000C2737 /* TrackCarExpenseTests.swift */,
+			);
+			path = TrackCarExpenseTests;
+			sourceTree = "<group>";
+		};
+		38CAA8882C666374000C2737 /* TrackCarExpenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38CAA8892C666374000C2737 /* TrackCarExpenseUITests.swift */,
+				38CAA88B2C666374000C2737 /* TrackCarExpenseUITestsLaunchTests.swift */,
+			);
+			path = TrackCarExpenseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38CAA8692C666372000C2737 /* TrackCarExpense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CAA88F2C666374000C2737 /* Build configuration list for PBXNativeTarget "TrackCarExpense" */;
+			buildPhases = (
+				38CAA8662C666372000C2737 /* Sources */,
+				38CAA8672C666372000C2737 /* Frameworks */,
+				38CAA8682C666372000C2737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackCarExpense;
+			productName = TrackCarExpense;
+			productReference = 38CAA86A2C666372000C2737 /* TrackCarExpense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38CAA87A2C666374000C2737 /* TrackCarExpenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CAA8922C666374000C2737 /* Build configuration list for PBXNativeTarget "TrackCarExpenseTests" */;
+			buildPhases = (
+				38CAA8772C666374000C2737 /* Sources */,
+				38CAA8782C666374000C2737 /* Frameworks */,
+				38CAA8792C666374000C2737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CAA87D2C666374000C2737 /* PBXTargetDependency */,
+			);
+			name = TrackCarExpenseTests;
+			productName = TrackCarExpenseTests;
+			productReference = 38CAA87B2C666374000C2737 /* TrackCarExpenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38CAA8842C666374000C2737 /* TrackCarExpenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CAA8952C666374000C2737 /* Build configuration list for PBXNativeTarget "TrackCarExpenseUITests" */;
+			buildPhases = (
+				38CAA8812C666374000C2737 /* Sources */,
+				38CAA8822C666374000C2737 /* Frameworks */,
+				38CAA8832C666374000C2737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CAA8872C666374000C2737 /* PBXTargetDependency */,
+			);
+			name = TrackCarExpenseUITests;
+			productName = TrackCarExpenseUITests;
+			productReference = 38CAA8852C666374000C2737 /* TrackCarExpenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38CAA8622C666372000C2737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					38CAA8692C666372000C2737 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					38CAA87A2C666374000C2737 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 38CAA8692C666372000C2737;
+					};
+					38CAA8842C666374000C2737 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 38CAA8692C666372000C2737;
+					};
+				};
+			};
+			buildConfigurationList = 38CAA8652C666372000C2737 /* Build configuration list for PBXProject "TrackCarExpense" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38CAA8612C666372000C2737;
+			productRefGroup = 38CAA86B2C666372000C2737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38CAA8692C666372000C2737 /* TrackCarExpense */,
+				38CAA87A2C666374000C2737 /* TrackCarExpenseTests */,
+				38CAA8842C666374000C2737 /* TrackCarExpenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38CAA8682C666372000C2737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CAA8762C666374000C2737 /* Preview Assets.xcassets in Resources */,
+				38CAA8722C666374000C2737 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CAA8792C666374000C2737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CAA8832C666374000C2737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38CAA8662C666372000C2737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CAA8702C666372000C2737 /* ContentView.swift in Sources */,
+				38CAA86E2C666372000C2737 /* TrackCarExpenseApp.swift in Sources */,
+				38CAA8992C669468000C2737 /* AddView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CAA8772C666374000C2737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CAA8802C666374000C2737 /* TrackCarExpenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CAA8812C666374000C2737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CAA88C2C666374000C2737 /* TrackCarExpenseUITestsLaunchTests.swift in Sources */,
+				38CAA88A2C666374000C2737 /* TrackCarExpenseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38CAA87D2C666374000C2737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38CAA8692C666372000C2737 /* TrackCarExpense */;
+			targetProxy = 38CAA87C2C666374000C2737 /* PBXContainerItemProxy */;
+		};
+		38CAA8872C666374000C2737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38CAA8692C666372000C2737 /* TrackCarExpense */;
+			targetProxy = 38CAA8862C666374000C2737 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38CAA88D2C666374000C2737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38CAA88E2C666374000C2737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		38CAA8902C666374000C2737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrackCarExpense/TrackCarExpense.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackCarExpense/Preview Content\"";
+				DEVELOPMENT_TEAM = 3H9GR3U488;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janhalas.TrackCarExpense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38CAA8912C666374000C2737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrackCarExpense/TrackCarExpense.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackCarExpense/Preview Content\"";
+				DEVELOPMENT_TEAM = 3H9GR3U488;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janhalas.TrackCarExpense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38CAA8932C666374000C2737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3H9GR3U488;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janhalas.TrackCarExpenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackCarExpense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackCarExpense";
+			};
+			name = Debug;
+		};
+		38CAA8942C666374000C2737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3H9GR3U488;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janhalas.TrackCarExpenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackCarExpense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackCarExpense";
+			};
+			name = Release;
+		};
+		38CAA8962C666374000C2737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3H9GR3U488;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janhalas.TrackCarExpenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackCarExpense;
+			};
+			name = Debug;
+		};
+		38CAA8972C666374000C2737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3H9GR3U488;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janhalas.TrackCarExpenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackCarExpense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38CAA8652C666372000C2737 /* Build configuration list for PBXProject "TrackCarExpense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CAA88D2C666374000C2737 /* Debug */,
+				38CAA88E2C666374000C2737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CAA88F2C666374000C2737 /* Build configuration list for PBXNativeTarget "TrackCarExpense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CAA8902C666374000C2737 /* Debug */,
+				38CAA8912C666374000C2737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CAA8922C666374000C2737 /* Build configuration list for PBXNativeTarget "TrackCarExpenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CAA8932C666374000C2737 /* Debug */,
+				38CAA8942C666374000C2737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CAA8952C666374000C2737 /* Build configuration list for PBXNativeTarget "TrackCarExpenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CAA8962C666374000C2737 /* Debug */,
+				38CAA8972C666374000C2737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38CAA8622C666372000C2737 /* Project object */;
+}
